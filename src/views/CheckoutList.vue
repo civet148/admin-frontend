@@ -241,17 +241,17 @@ td {
   font-size: 14px;
 }
 
-/* 奇数行背景色 */
+/* 奇数行背景色 - 改为浅绿色 */
 tr:nth-child(odd) td {
-  background-color: #ffffff;
+  background-color: #f0fdf4;  /* 非常浅的绿色 */
 }
 
-/* 偶数行背景色，使用更深的颜色 */
+/* 偶数行背景色保持不变 */
 tr:nth-child(even) td {
   background-color: #f3f4f6;
 }
 
-/* 鼠标悬停效果，使用更明显的高亮色 */
+/* 鼠标悬停效果也稍微调整，使其与新的背景色搭配 */
 tr:hover td {
   background-color: #e5e7eb;
 }
